@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+
+</div>
+<input  id="dianji" value="点击支付" type="button"/>
+</body>
+<script>
+    var click = document.getElementById('dianji');
+    click.addEventListener('click', function (ev) {
+        var div = document.createElement("div");
+        div.innerHTML ='<form name=\"punchout_form\" method=\"post\" action=\"https://openapi.alipay.com/gateway.do?charset=UTF-8&method=alipay.trade.wap.pay&sign=LFRrWXCDESk0SfR8nFC5rTjID3kExh1o%2BwweqALEUR%2FyJ109Qbl%2FgSTwxfOLxOpjSvyk0WPlhKcS9qs8DgcoxjsBwSxKISMd8ynXmkmWFO0Si2YBkDrXfyPN9l3gHHdB0Y3yoF5TmA3ofHB44H1JSvkInpDHzSX80uucyKFYu8IzvSkLkndvokU0o5ruRiAebrcXIx2liXsGQ8Ve%2BSV8CObYDRugDR6PSroXXuCEzY%2Bw2NdV1%2FdPJTiPawF7wlOHXlz%2BAAxodeYfghxcUKuSDGdufuI%2F0DV8WEv5wUu6jeGn5iWBaSIwkOH6PDG4lEen8jUOZpw6l9ZDPP6W8FTS7A%3D%3D&return_url=https%3A%2F%2Fdev.gzlplink.com%2Fapi%2Fwappay%2Faliv2%2Fcall_back_url&notify_url=https%3A%2F%2Fdev.gzlplink.com%2Fapi%2Fwappay%2Faliv2%2Fagent_notify_url&version=1.0&app_id=2017070607657516&sign_type=RSA2&timestamp=2019-07-08+16%3A25%3A57&alipay_sdk=alipay-sdk-java-3.4.77.ALL&format=json\"><input type=\"hidden\" name=\"biz_content\" value=\"{&quot;enable_pay_channels&quot;:&quot;pcreditpayInstallment&quot;,&quot;extend_params&quot;:{&quot;hb_fq_num&quot;:&quot;6&quot;,&quot;hb_fq_seller_percent&quot;:&quot;0&quot;,&quot;sys_service_provider_id&quot;:&quot;2088821010331704&quot;},&quot;out_trade_no&quot;:&quot;201907100617045043&quot;,&quot;product_code&quot;:&quot;QUICK_WAP_PAY&quot;,&quot;quit_url&quot;:&quot;https:\\/\\/www.unicompayment.com\\/WoMall\\/hbStageHandler\\/orderResultPage?ordNo=20190710061704&quot;,&quot;subject&quot;:&quot;沃乐送-分期购商城-手机屏爆了&quot;,&quot;total_amount&quot;:&quot;0.01&quot;}\"><input type=\"submit\" value=\"立即支付\" style=\"display:none\" ></form>'; //此处form就是后台返回接收到的数据
+        document.body.appendChild(div);
+        document.forms[0].submit();
+    })
+</script>
+</html>
