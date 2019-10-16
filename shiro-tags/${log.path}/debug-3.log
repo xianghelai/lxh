@@ -1,0 +1,26 @@
+[INFO ][2019-10-16 09:25:46][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ][2019-10-16 09:25:47][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+[INFO ][2019-10-16 09:25:47][FrameworkServlet.java:547] - Completed initialization in 7 ms
+[INFO ][2019-10-16 09:25:47][UserController.java:176] - 跳转登陆页：
+[INFO ][2019-10-16 09:25:50][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[WARN ][2019-10-16 09:25:50][DriverDataSource.java:68] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO ][2019-10-16 09:25:50][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+[DEBUG][2019-10-16 09:25:50][BaseJdbcLogger.java:143] - ==>  Preparing: select User_Id, Login_Name, Login_Password, Gender, Contact_phone, Contact_Email, User_Name, Birthday, Contact_address, Post_Code, Register_Time, User_Status, Province, Last_Modefy_Time from table_user where Login_Name = ? 
+[DEBUG][2019-10-16 09:25:51][BaseJdbcLogger.java:143] - ==> Parameters: bbdw(String)
+[DEBUG][2019-10-16 09:25:51][BaseJdbcLogger.java:143] - <==      Total: 1
+[DEBUG][2019-10-16 09:25:52][BaseJdbcLogger.java:143] - ==>  Preparing: SELECT count(0) FROM table_user WHERE 1 = 1 
+[DEBUG][2019-10-16 09:25:52][BaseJdbcLogger.java:143] - ==> Parameters: 
+[DEBUG][2019-10-16 09:25:52][BaseJdbcLogger.java:143] - <==      Total: 1
+[DEBUG][2019-10-16 09:25:52][BaseJdbcLogger.java:143] - ==>  Preparing: select User_Id, Login_Name, Login_Password, Gender, Contact_phone, Contact_Email, User_Name, Birthday, Contact_address, Post_Code, Register_Time, User_Status, Province, Last_Modefy_Time from table_user where 1=1 LIMIT ? 
+[DEBUG][2019-10-16 09:25:52][BaseJdbcLogger.java:143] - ==> Parameters: 5(Integer)
+[DEBUG][2019-10-16 09:25:52][BaseJdbcLogger.java:143] - <==      Total: 5
+[DEBUG][2019-10-16 09:27:26][BaseJdbcLogger.java:143] - ==>  Preparing: SELECT count(0) FROM table_user WHERE 1 = 1 
+[DEBUG][2019-10-16 09:27:26][BaseJdbcLogger.java:143] - ==> Parameters: 
+[DEBUG][2019-10-16 09:27:26][BaseJdbcLogger.java:143] - <==      Total: 1
+[DEBUG][2019-10-16 09:27:26][BaseJdbcLogger.java:143] - ==>  Preparing: select User_Id, Login_Name, Login_Password, Gender, Contact_phone, Contact_Email, User_Name, Birthday, Contact_address, Post_Code, Register_Time, User_Status, Province, Last_Modefy_Time from table_user where 1=1 LIMIT ? 
+[DEBUG][2019-10-16 09:27:26][BaseJdbcLogger.java:143] - ==> Parameters: 5(Integer)
+[DEBUG][2019-10-16 09:27:26][BaseJdbcLogger.java:143] - <==      Total: 5
+[DEBUG][2019-10-16 09:28:31][BaseJdbcLogger.java:143] - ==>  Preparing: SELECT count(0) FROM table_user WHERE 1 = 1 
+[DEBUG][2019-10-16 09:28:31][BaseJdbcLogger.java:143] - ==> Parameters: 
+[DEBUG][2019-10-16 09:28:31][BaseJdbcLogger.java:143] - <==      Total: 1
+[DEBUG][2019-10-16 09:28:31][BaseJdbcLogger.java:143] - ==>  Preparing: select User_Id, Login_Name, Login_Password, Gender, Contact_phone, Contact_Email, User_Name, Birthday, Contact_address, Post_Code, Register_Time, User_Status, Province, Last_Modefy_Time from table_user where 1=1 LIMIT ? 

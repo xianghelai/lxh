@@ -1,0 +1,19 @@
+[INFO ][2019-10-16 09:25:39][PostProcessorRegistrationDelegate.java:330] - Bean 'tableRoleMapper' of type [com.sun.proxy.$Proxy83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:39][PostProcessorRegistrationDelegate.java:330] - Bean 'roleServiceImpl' of type [com.lai.shirotags.service.serviceImpl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:39][PostProcessorRegistrationDelegate.java:330] - Bean 'tablePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:39][PostProcessorRegistrationDelegate.java:330] - Bean 'tablePermissionMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:39][PostProcessorRegistrationDelegate.java:330] - Bean 'permissionServiceImpl' of type [com.lai.shirotags.service.serviceImpl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:39][PostProcessorRegistrationDelegate.java:330] - Bean 'userRealm' of type [com.lai.shirotags.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:40][PostProcessorRegistrationDelegate.java:330] - Bean 'sercurityMananger' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][2019-10-16 09:25:40][TomcatWebServer.java:90] - Tomcat initialized with port(s): 8081 (http)
+[INFO ][2019-10-16 09:25:40][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ][2019-10-16 09:25:40][DirectJDKLog.java:173] - Starting service [Tomcat]
+[INFO ][2019-10-16 09:25:40][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.26]
+[INFO ][2019-10-16 09:25:40][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[INFO ][2019-10-16 09:25:40][ServletWebServerApplicationContext.java:284] - Root WebApplicationContext: initialization completed in 2973 ms
+[INFO ][2019-10-16 09:25:40][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ][2019-10-16 09:25:41][WelcomePageHandlerMapping.java:58] - Adding welcome page template: index
+[INFO ][2019-10-16 09:25:41][OptionalLiveReloadServer.java:57] - LiveReload server is running on port 35729
+[INFO ][2019-10-16 09:25:41][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ][2019-10-16 09:25:41][TomcatWebServer.java:202] - Tomcat started on port(s): 8081 (http) with context path '/shirotags'
+[INFO ][2019-10-16 09:25:41][StartupInfoLogger.java:59] - Started ShiroTagsApplication in 3.992 seconds (JVM running for 6.626)
